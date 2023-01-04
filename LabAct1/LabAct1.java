@@ -4,7 +4,6 @@ import java.io.*;
 
 public class LabAct1 {
   public static void main(String[] args) {
-    // Read input file and add all the data
     int sum = 0;
     try (BufferedReader br = new BufferedReader(new FileReader("data.txt"))) {
       String line;
@@ -15,7 +14,6 @@ public class LabAct1 {
       System.out.println("There is an error");
     }
 
-    // Write sum to new file
     try (BufferedWriter bw = new BufferedWriter(new FileWriter("sum.txt"))) {
       bw.write(String.valueOf(sum));
     } catch (IOException e) {
