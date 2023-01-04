@@ -1,4 +1,4 @@
-package labact1;
+package labact1no1;
 
 import java.io.*;
 
