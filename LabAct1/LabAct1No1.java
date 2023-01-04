@@ -2,7 +2,7 @@ package labact1;
 
 import java.io.*;
 
-public class LabAct1 {
+public class LabAct1No1 {
   public static void main(String[] args) {
     int sum = 0;
     try (BufferedReader br = new BufferedReader(new FileReader("data.txt"))) {
