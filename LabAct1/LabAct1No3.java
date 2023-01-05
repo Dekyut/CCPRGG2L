@@ -14,7 +14,7 @@ public class LabAct1No3 {
       int lineCount = 0;
       while ((line = reader.readLine()) != null && lineCount < 5) {
         for (char c : line.toCharArray()) {
-          if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+          if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'|| c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
             vowelCount++;
           }
         }
